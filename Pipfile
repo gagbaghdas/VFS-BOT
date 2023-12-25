@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pytesseract = "*"
+selenium = "==4.9.0"
+opencv-python = "*"
+undetected-chromedriver = "==3.4.6"
+selenium-recaptcha-solver = "*"
+python-telegram-bot = "==13.11"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
